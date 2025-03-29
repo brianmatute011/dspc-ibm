@@ -3,12 +3,21 @@ name = "ibm"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "its_catinsauce",email = "brian@klinklin..ai"}
+    {name = "its_catinsauce",email = "brianmatute011@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "notebook (>=7.3.2,<8.0.0)"
+    "notebook (>=7.3.3,<8.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "numpy (>=2.2.4,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "aiohttp (>=3.11.14,<4.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "yfinance (>=0.2.55,<0.3.0)",
+    "lxml (>=5.3.1,<6.0.0)",
+    "html5lib (>=1.1,<2.0)",
+    "plotly (>=6.0.1,<7.0.0)"
 ]
 
 
